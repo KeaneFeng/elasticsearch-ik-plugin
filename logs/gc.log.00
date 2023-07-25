@@ -1,0 +1,25 @@
+[2023-07-25T07:14:45.578+0000][171][gc,init] CardTable entry size: 512
+[2023-07-25T07:14:45.579+0000][171][gc     ] Using G1
+[2023-07-25T07:14:45.589+0000][171][gc,init] Version: 18.0.2+9-61 (release)
+[2023-07-25T07:14:45.590+0000][171][gc,init] CPUs: 5 total, 2 available
+[2023-07-25T07:14:45.592+0000][171][gc,init] Memory: 4096M
+[2023-07-25T07:14:45.593+0000][171][gc,init] Large Page Support: Disabled
+[2023-07-25T07:14:45.593+0000][171][gc,init] NUMA Support: Disabled
+[2023-07-25T07:14:45.594+0000][171][gc,init] Compressed Oops: Enabled (32-bit)
+[2023-07-25T07:14:45.595+0000][171][gc,init] Heap Region Size: 1M
+[2023-07-25T07:14:45.596+0000][171][gc,init] Heap Min Capacity: 2G
+[2023-07-25T07:14:45.597+0000][171][gc,init] Heap Initial Capacity: 2G
+[2023-07-25T07:14:45.598+0000][171][gc,init] Heap Max Capacity: 2G
+[2023-07-25T07:14:45.598+0000][171][gc,init] Pre-touch: Disabled
+[2023-07-25T07:14:45.600+0000][171][gc,init] Parallel Workers: 2
+[2023-07-25T07:14:45.601+0000][171][gc,init] Concurrent Workers: 1
+[2023-07-25T07:14:45.603+0000][171][gc,init] Concurrent Refinement Workers: 2
+[2023-07-25T07:14:45.604+0000][171][gc,init] Periodic GC: Disabled
+[2023-07-25T07:14:45.605+0000][171][gc,metaspace] CDS archive(s) not mapped
+[2023-07-25T07:14:45.606+0000][171][gc,metaspace] Compressed class space mapped at: 0x0000000100000000-0x0000000140000000, reserved size: 1073741824
+[2023-07-25T07:14:45.607+0000][171][gc,metaspace] Narrow klass base: 0x0000000000000000, Narrow klass shift: 3, Narrow klass range: 0x140000000
+[2023-07-25T07:14:45.651+0000][171][gc,heap,exit] Heap
+[2023-07-25T07:14:45.652+0000][171][gc,heap,exit]  garbage-first heap   total 2097152K, used 2048K [0x0000000080000000, 0x0000000100000000)
+[2023-07-25T07:14:45.653+0000][171][gc,heap,exit]   region size 1024K, 2 young (2048K), 0 survivors (0K)
+[2023-07-25T07:14:45.654+0000][171][gc,heap,exit]  Metaspace       used 3527K, committed 3584K, reserved 1114112K
+[2023-07-25T07:14:45.656+0000][171][gc,heap,exit]   class space    used 271K, committed 320K, reserved 1048576K
