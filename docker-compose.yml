@@ -7,7 +7,7 @@ services:
     environment:
       - "cluster.name=elasticsearch" #设置集群名称为elasticsearch
       - "discovery.type=single-node" #以单一节点模式启动
-      - "ES_JAVA_OPTS=-Xms2g -Xmx2g" #设置使用jvm内存大小
+      - "ES_JAVA_OPTS=-Xms4g -Xmx4g" #设置使用jvm内存大小
       - "xpack.security.enabled=false"
       - "bootstrap.memory_lock=true"
     volumes:
