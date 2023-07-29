@@ -22,13 +22,13 @@ services:
       - 9300:9300
     networks:
       - elastic
-    deploy:
-     resources:
-        limits:
-           cpus: "2"
-           memory: 4G
-        reservations:
-           memory: 2G
+#     deploy:
+#      resources:
+#         limits:
+#            cpus: "2"
+#            memory: 4G
+#         reservations:
+#            memory: 2G
            
   kibana:
     image: kibana:7.17.6
